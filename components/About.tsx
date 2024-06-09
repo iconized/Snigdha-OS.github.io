@@ -9,7 +9,7 @@ import {
 export default function About() {
   return (
     <>
-      <h1 className="text-lg font-semibold my-2">About Me</h1>
+      <h1 className="text-lg font-semibold my-2">About</h1>
       <div className="flex flex-col mb-4 text-lg tracking-wide gap-y-4 px-4">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor tenetur

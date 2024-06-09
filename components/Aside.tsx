@@ -24,9 +24,9 @@ export default function Aside() {
           alt=""
           className="h-48 md:h-56 lg:h-60 my-4 rounded-full"
         />
-        <h1 className="text-2xl font-bold">John Doe</h1>
-        <h3 className="text-lg">jdoe</h3>
-        <p className="py-2"> A lie is just a great story ruined by truth.</p>
+        <h1 className="text-2xl font-bold">Snigdha OS</h1>
+        <h3 className="text-lg">@snigdhaos</h3>
+        <p className="py-2"> Be silent when it is time to hear!</p>
 
         <div className="my-2">
           <a
@@ -35,12 +35,12 @@ export default function Aside() {
             className="flex gap-1 items-center w-max border-none rounded px-3 py-1 bg-green-700 text-white hover:bg-green-600"
           >
             <IoArrowDown />
-            Download Resume
+            Download Snigdha OS [Arctic]
           </a>
         </div>
 
         <div className="my-2">
-          <h3 className="text-lg font-semibold pt-1">Basic Info</h3>
+          <h3 className="text-lg font-semibold pt-1">System Requirements</h3>
           <div className="mt-2 mb-4 text-lg flex flex-col gap-2">
             <div className="flex gap-x-2 items-center">
               <IoLocationOutline className="flex-none text-gray-500" />{' '}
@@ -89,13 +89,11 @@ export default function Aside() {
         </div>
 
         <div className="my-2 mb-8">
-          <h3 className="text-lg font-semibold pt-1">Skills</h3>
+          <h3 className="text-lg font-bold pt-1">More From Snigdha OS </h3>
           <div className="mt-2 flex flex-wrap gap-3">
-            <Pills text="Team Player" cname="bg-red-100 py-1" />
-            <Pills text="Creative" cname="bg-blue-100 py-1" />
-            <Pills text="Organized" cname="bg-purple-100 py-1" />
-            <Pills text="Problem Solver" cname="bg-green-100 py-1" />
-            <Pills text="Leadership" cname="bg-yellow-100 py-1" />
+            <Link href="https://github.com/">
+              Github
+            </Link>
           </div>
         </div>
       </aside>

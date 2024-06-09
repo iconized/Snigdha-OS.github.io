@@ -51,7 +51,7 @@ export default function Index() {
   return (
     <>
       <Head>
-        <title>Home :: GitWind</title>
+        <title>SNIGDHA OS</title>
       </Head>
       <Layout border="border-2">
         <About />
